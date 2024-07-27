@@ -4,15 +4,17 @@ import Header from './components/Header'
 import Dishes from './components/Dishes'
 import About from './components/About'
 import Mission from './components/Mission'
+import Expertise from './components/Expertise'
 
 export default function App() {
   return (
-    <div>
+    <main>
       <Header/>
       <Hero/>
        <Dishes/>
        <About/>
        <Mission/>
-    </div>
+       <Expertise/>
+    </main>
   )
 }
