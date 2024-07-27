@@ -27,7 +27,7 @@ export default function Header() {
       <div className="w-full flex items-center justify-between overflow-y-hidden px-10  p-4 backdrop-blur-lg shadow-lg ">
         <div className="flex items-center">
           <FaHome className="text-white" size={30} />
-          <h2 className="font-semibold uppercase">Bofty</h2>
+          <h2 className="font-semibold uppercase text-yellow-500">Bofty</h2>
           <h1 className="text-white">KITCHEN</h1>
         </div>
         <div className="hidden space-x-6 lg:flex">
@@ -37,7 +37,7 @@ export default function Header() {
               href={`#${link.targetId}`}
               className={` text-white text-sm ${
                 index !== 0 ? "border-l-2 border-neutral-300/20 pl-2" : ""
-              } hover:opacity-50`}
+              } hover:text-yellow-500`}
               onClick={(e) => handleScroll(e, link.targetId)}
             >
               {link.text}

@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Header from './components/Header'
 import Dishes from './components/Dishes'
 import About from './components/About'
+import Mission from './components/Mission'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Hero/>
        <Dishes/>
        <About/>
+       <Mission/>
     </div>
   )
 }
