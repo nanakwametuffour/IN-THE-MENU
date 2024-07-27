@@ -119,9 +119,9 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  { key: "address", value: "Address: 123 Main Street, kumasi, Ghana, 345678" },
+  { key: "phone", value: "Phone: +233244083687" },
+  { key: "email", value: "Email: contact@boftykitchen.com" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [

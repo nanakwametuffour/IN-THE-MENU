@@ -21,8 +21,8 @@ export default function Review() {
          </div>
       </div>
         <div className="mt-14 flex flex-wrap  items-center justify-center gap-3  md:flex-wrap p-3 ">
-             {[customer1, customer2,customer3,customer4].map((customer, index)=>(
-                <img key={index} src={customer} alt="customer" className="h-[300px] w-[400px] rounded-br-3xl rounded-tl-3xl object-cover mb-4" />
+             {[customer1, customer2,customer3,].map((customer, index)=>(
+                <img key={index} src={customer} alt="customer" className="h-[300px] w-[400px]   rounded-br-3xl rounded-tl-3xl object-cover mb-4" />
              ))}
         </div>
     </section>
